@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <color name="black">#000</color>
+  <color name="accent">#E040FB</color>
+  <color name="orange_gold">#F9A602</color>
+  <color name="azure_blue">#0080FF</color>
+  <color name="candy_apple_red">#FF0800</color>
+  <color name="emerald_green">#50C878</color>
+  <color name="brilliant_purple">#D399E6</color>
+  <color name="white">#FFF</color>
+  <color name="kamstrup_green">#016A65</color>
+  <color name="kamstrup_dark_green">#014744</color>
+  <color name="kamstrup_red">#DA022E</color>
+  <color name="light_grey">#949494</color>
+  <color name="dark_grey">#7B7D7C</color>
+  <color name="light_green">#77C2BB</color>
+
+  <!--<color name="list_item_middle_gradient_top">#888888</color>
+  <color name="list_item_middle_gradient_bottom">#808080</color>
+  <color name="list_item_middle_pressed_gradient_top">#777777</color>
+  <color name="list_item_middle_pressed_gradient_bottom">#707070</color>-->
+</resources>

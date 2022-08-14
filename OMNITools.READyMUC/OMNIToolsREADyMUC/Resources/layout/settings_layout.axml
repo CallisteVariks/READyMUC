@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include
+            layout="@menu/toolbar" />
+        <Switch
+            android:id="@+id/bluetooth_on_off_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Enable or disable bluetooth"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="?android:attr/listDivider" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/bluetooth_secure_connection_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Connect to reader"
+                android:layout_toLeftOf="@+id/secure_connect_scan"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000" />
+            <Button
+                android:id="@+id/connect_reader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Connect"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="?android:attr/listDivider" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/bluetooth_secure_connection_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Make discoverable"
+                android:layout_toLeftOf="@+id/discoverable"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000" />
+            <Button
+                android:id="@+id/discoverable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="On"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="?android:attr/listDivider" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/bluetooth_paired_devices_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Show paired devices"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/bluetooth_paired_devices_button"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000" />
+            <Button
+                android:id="@+id/bluetooth_paired_devices_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <ListView
+            android:id="@+id/bluetooth_paired_devices_listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:transcriptMode="alwaysScroll" />
+    </LinearLayout>
+</ScrollView>

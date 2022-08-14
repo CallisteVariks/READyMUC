@@ -1,0 +1,18 @@
+﻿namespace OMNIToolsREADyMUC.Common.Enums
+{
+  public enum KmRfCommandEnum
+  {
+    WHO_IS = 0x08,
+    READY_CONVERTER_CMD = 0x21,
+    READ_EEPROM = 0x60,
+    READ_EEPROM_EXTENDED_ADDRESS = 0x63,
+    WRITE_TO_EEPROM = 0x68,
+    WRITE_TO_EEPROM_EXTENDED_ADDRESS = 0x69,
+    CALC_CRC = 0x6E,
+    CALC_CRC_EXTENDED_ADDRESS = 0x6F,
+    SOFTWARE_RESET = 0x70,
+    BOOTLOAD = 0xF1,
+    BOOTLOAD_V2 = 0xF2,
+    DEBUG_CMD = 0xBD
+  }
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="title_app_name">READyMUC</string>
+  <string name="subtitle_app_name">App</string>
+  <string name="ok">Ok</string>
+
+  <!--  Bluetooth -->
+  <string name="open_drawer">Open drawer</string>
+  <string name="close_drawer">Close drawer</string>
+  <string name="start_scan">Press the bottom right button to start scanning</string>
+  <string name="no_devices_found">No reader devices found</string>
+  <string name="scan">Scan</string>
+  <string name="scan_complete">Scan is complete</string>
+  <string name="connecting_to_device">Connecting to </string>
+  <string name="please_wait">Please wait&#8230;</string>
+  <string name="searching_please_wait">Searching&#8230; Please wait</string>
+  <string name="scanning">Scanning</string>
+  <string name="select_device_reader_device">Select reader device</string>
+  <string name="info">Info</string>
+  <string name="delete">Delete</string>
+  <string name="finish_order_dialog_message">If you press OK, this reading will be marked as completed, and you will not be able to resume it at a later time</string>
+  <string name="cancel">Cancel</string>
+  <string name="connected_message">Successfully connected to </string>
+  <string name="connection_failed_message">Could not connect to </string>
+  <string name="device">device</string>
+  <string name="enable_bluetooth">Please enable Bluetooth</string>
+  <string name="scan_rdyc">Scan RDyC</string>
+
+  <string name="rdyc_device_name">READy Converter</string>
+  <string name="connection_cancelled">Connection has been cancelled</string>
+
+  <string name="send">Send</string>
+  <string name="not_connected">You are not connected to a device</string>
+  <string name="bt_not_available_leaving">Bluetooth is not available on this device. Leaving READyMUC App</string>
+  <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving READyMUC App</string>
+  <string name="title_connecting">Connecting...</string>
+  <string name="title_connected_to">Connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+  <string name="title_not_connected">Not Connected</string>
+
+  <!--  DeviceListActivity -->
+  <string name="scanning">Scanning for devices...</string>
+  <string name="select_device">Select a device to connect</string>
+  <string name="none_paired">No devices have been paired</string>
+  <string name="none_found">No devices found</string>
+  <string name="title_paired_devices">Paired devices</string>
+  <string name="title_other_devices">Other available devices</string>
+  <string name="button_scan">Scan for devices</string>
+
+  <!-- Options Menu -->
+  <string name="discoverable">Make discoverable</string>
+  <string name="is_discoverable">Currently discoverable</string>
+
+  <!-- Permissions -->
+  <string name="request_location_permissions">Android relies on the location services to retrieve the identity of Bluetooth devices</string>
+  <string name="bluetooth_max_number_of_connections_reached">You have connected to the maximum number of allowed Bluetooth devices. Please disconnect a connected device before retrying</string>
+
+</resources>
